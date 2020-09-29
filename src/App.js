@@ -6,7 +6,7 @@ import { ShopConnector } from "./shop/ShopConnector";
 
 
 
-export class App extends Component {
+export default class App extends Component {
   render() {
     return <Provider store={SportsStoreDataStore}>
       <Router>
@@ -20,5 +20,3 @@ export class App extends Component {
 
   }
 }
-
-export default App

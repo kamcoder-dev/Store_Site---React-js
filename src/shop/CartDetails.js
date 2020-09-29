@@ -6,7 +6,7 @@ import { CartDetailsRows } from "./CartDetailsRows"
 
 export class CartDetails extends Component {
     getLinkClasses = () => `btn btn-secondary m-1
-    ${this.props.CartDetails === 0 ? "disabled" : ""}`;
+    ${this.props.CartItems === 0 ? "disabled" : ""}`;
     render() {
         return <div className="m-3">
             <h2 className="text-center">Your Cart</h2>

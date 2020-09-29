@@ -18,4 +18,3 @@ export class ToggleLink extends Component {
             }} />
     }
 }
-export default ToggleLink

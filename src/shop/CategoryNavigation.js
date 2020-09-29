@@ -8,10 +8,11 @@ export class CategoryNavigation extends Component {
             <ToggleLink to={this.props.baseUrl} exact={true}>All</ToggleLink>
             {this.props.categories && this.props.categories.map(cat =>
                 <ToggleLink key={cat}
-                    to={`${this.props.baseUrl}/${cat.toLowerCase()}`}>
+                    to={`${this.props.baseUrl}/£{cat.toLowerCase()}`}>
                     {cat}
-                </ToggleLink>)}
-                )}
-                </React.Fragment>
+                </ToggleLink>
+            )}
+
+        </React.Fragment>
     }
 }
